@@ -1,0 +1,200 @@
+.chooseText {
+  font-family: "inter";
+  font-size: 36px;
+  font-weight: 700;
+  color: #263238;
+  padding-left: 5%;
+}
+
+.chooseContainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding-left: 5%;
+  width: 100%;
+  padding-top: 1%;
+  padding-bottom: 3%;
+  /* align-items: center; */
+  /* background-color: pink; */
+}
+
+.firstContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-top: 2%;
+  width: 25%;
+}
+
+.chooseTitleText {
+  font-family: "inter";
+  font-weight: 500;
+  font-size: 18px;
+  color: #263238;
+}
+
+.spaceHeadingContainer {
+  padding-left: 5%;
+  padding-top: 3%;
+  padding-bottom: 2%;
+}
+
+.spaceHeading {
+  font-family: "inter";
+  font-weight: 700;
+  font-size: 36px;
+  color: #263238;
+}
+
+.middleMainContainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  padding-left: 1.5%;
+  padding-right: 2%;
+}
+
+.cardHeader {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 52px;
+  height: 52px;
+  border-radius: 6.47px;
+  border: 0.47px solid #eee7e7;
+}
+
+.chipContainer {
+  display: flex;
+  justify-content: space-around;
+  position: relative;
+  align-items: center;
+  flex-direction: row;
+  background: linear-gradient(100.27deg, #263238 22.66%, #2f4b59 67.67%);
+  width: 110px;
+  height: 32px;
+  border: 0.5px;
+  border-radius: 5px;
+}
+
+.cardContentMain {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.cardContentSec {
+  background-color: #f9f9f9;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  padding-left: 2%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border: 0.5px solid #eee7e7;
+  border-radius: 6px;
+  width: 160px;
+}
+
+.discountContainer {
+  width: 90%;
+  justify-content: flex-end;
+  align-content: flex-end;
+  display: flex;
+}
+
+.discountFirst {
+  display: flex;
+  background-color: #263238;
+  border-radius: 3px;
+  border: "1px solid #263238";
+  padding: 1%;
+}
+
+.discountText {
+  color: #fffdf7;
+  font-family: "inter";
+  font-weight: 500;
+  font-size: 8px;
+}
+
+.cardTitle {
+  font-family: "inter";
+  font-size: 8px;
+  font-weight: 500;
+  color: #263238;
+}
+.workText {
+  font-family: "inter";
+  font-weight: 500;
+  font-size: 14px;
+  color: #ffbb00;
+}
+
+.dayPassText {
+  font-family: "inter";
+  font-weight: 500;
+  font-size: 14px;
+  color: #65624c;
+}
+
+.rupeesText {
+  font-family: "inter";
+  font-weight: 600;
+  font-size: 18px;
+  color: #263238;
+}
+
+.dayText {
+  font-family: "inter";
+  font-size: 12px;
+  font-weight: 500;
+  color: #263238;
+}
+
+.textSpace {
+  margin-left: 3%;
+}
+
+@media (max-width: 575.98px) {
+  .chooseContainer {
+    flex-direction: row;
+    width: 100vw;
+    align-items: center;
+    /* background-color: pink; */
+    justify-content: space-between;
+  }
+  .firstContainer {
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff;
+    width: 154px;
+    margin-bottom: 2%;
+    padding: 2%;
+    height: 80%;
+    border-radius: 6px;
+    box-shadow: 0px 2px 4px 0px #0000000f;
+  }
+  .textSpace {
+    margin-left: 0%;
+  }
+  .chooseTitleText {
+    font-size: 14px;
+  }
+  .chooseText {
+    font-weight: 700;
+    font-size: 24px;
+    padding-bottom: 6%;
+  }
+  .spaceHeading {
+    font-weight: 700;
+    font-size: 24px;
+    padding-top: 10%;
+    padding-bottom: 10%;
+  }
+}
