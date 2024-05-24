@@ -66,4 +66,10 @@
   .lastContainer {
     width: 100%;
   }
+  .leftSection {
+    min-width: auto;
+  }
+  .mobileSize {
+    width: 50%;
+  }
 }

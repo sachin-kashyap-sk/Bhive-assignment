@@ -12,8 +12,13 @@ const Bottom = () => {
         <p className={classes.text}>Download our app now</p>
       </Box>
       <Box className={classes.mainContainer}>
-        <img width="auto" height="auto" src={mobile1} alt="mobile1" />
-        <img width="auto" height="auto" src={mobile2} alt="mobile2" />
+        <img
+          className={classes.mobileSize}
+          height="auto"
+          src={mobile1}
+          alt="mobile1"
+        />
+        <img className={classes.mobileSize} src={mobile2} alt="mobile2" />
 
         <Box className={classes.textContainer}>
           <Box className={classes.textContainerInner}>
@@ -23,8 +28,8 @@ const Bottom = () => {
             </p>
           </Box>
           <Box className={classes.lastContainer}>
-            <img width="146px" height="45px" src={gPlay} alt="gPlay" />
-            <img width="146px" height="45px" src={appStore} alt="appStore" />
+            <img width="auto" height="45px" src={gPlay} alt="gPlay" />
+            <img width="auto" height="45px" src={appStore} alt="appStore" />
           </Box>
         </Box>
       </Box>

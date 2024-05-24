@@ -64,7 +64,11 @@ const Header = () => {
             />
           </Box>
           <Box sx={{ position: "relative" }}>
-            <img src={headerImage3} alt="headerImage3" />
+            <img
+              className={classes.imgSize}
+              src={headerImage3}
+              alt="headerImage3"
+            />
           </Box>
         </Box>
       </Box>

@@ -1,5 +1,5 @@
 import React from "react";
-import { Box, Container } from "@mui/material";
+import { Box } from "@mui/material";
 import classes from "../../styleContainer/middle.module.css";
 import MiddleMain from "./MiddleMain";
 import { selectedValue } from "../redux/middleSection/MiddleSlice";
@@ -8,7 +8,7 @@ const MiddleSection = () => {
   const chooseUsData = useSelector(selectedValue);
 
   return (
-    <Container maxWidth="false">
+    <Box sx={{ paddingRight: "2%", paddingLeft: "2%" }}>
       <Box>
         <p className={classes.chooseText}>Why Choose us ?</p>
       </Box>
@@ -26,7 +26,7 @@ const MiddleSection = () => {
         ))}
       </Box>
       <MiddleMain />
-    </Container>
+    </Box>
   );
 };
 

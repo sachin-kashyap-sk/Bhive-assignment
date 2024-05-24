@@ -15,8 +15,6 @@
   width: 100%;
   padding-top: 1%;
   padding-bottom: 3%;
-  /* align-items: center; */
-  /* background-color: pink; */
 }
 
 .firstContainer {
@@ -164,9 +162,8 @@
 @media (max-width: 575.98px) {
   .chooseContainer {
     flex-direction: row;
-    width: 100vw;
+    width: 100%;
     align-items: center;
-    /* background-color: pink; */
     justify-content: space-between;
   }
   .firstContainer {

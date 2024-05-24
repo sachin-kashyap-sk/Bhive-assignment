@@ -7,7 +7,6 @@ import direction from "../../assets/direction.png";
 import arrow from "../../assets/arrow.png";
 import arrow2 from "../../assets/arrow2.png";
 import classes from "../../styleContainer/middle.module.css";
-import Bottom from "../bottomSection/Bottom";
 import { selectedMain } from "../redux/middleSection/MiddleSlice";
 import { useSelector } from "react-redux";
 const MiddleMain = () => {
@@ -109,7 +108,6 @@ const MiddleMain = () => {
           </Card>
         ))}
       </Box>
-      <Bottom />
     </Box>
   );
 };
